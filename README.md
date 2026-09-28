@@ -31,6 +31,10 @@ The importer downloads the 133 pinned mod files from their publishers' distribut
 
 This is a **workshop prototype**. A facilitator reviews code and explanations: submitting an item does not prove that a learner wrote the intended program. The included pitch originally proposed a pilot; this publication does not claim measured learning outcomes or a completed classroom evaluation.
 
+## Possible future extensions
+
+Chemistry and geology were considered as follow-on topics using existing Minecraft mods, contingent on a successful programming-workshop pilot. Those ideas are outside this release; the published course covers programming and automation.
+
 ## Repository layout
 
 - `overrides/`: quests, handbook and custom progress configuration/script.
