@@ -1,0 +1,7 @@
+{
+  "name": "Blocklabor Kursbuch",
+  "landing_text": "$(bold)Willkommen im Kursbuch!/$$(br2)Hier lernst du Schritt fuer Schritt Programmieren in Minecraft. Jede Kategorie ist ein Modul mit Quests, Hilfe-Seiten und Uebungen.$(br2)Wenn du neu bist, starte mit $(thing)Modul 1 - CC:Tweaked/$.",
+  "version": 1,
+  "model": "patchouli:book_blue",
+  "creative_tab": "minecraft:tools_and_utilities"
+}

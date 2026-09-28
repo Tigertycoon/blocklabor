@@ -1,0 +1,33 @@
+{
+  "name": "Turtle Grundlagen",
+  "category": "patchouli:cc_tweaked",
+  "icon": "computercraft:turtle_normal",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Was ist eine Turtle?",
+      "text": "Eine Turtle ist dein kleiner Roboter in Minecraft. Du gibst Befehle per Programm und die Turtle fuehrt sie aus."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fuel nicht vergessen",
+      "text": "Ohne Fuel bewegt sich die Turtle nicht. Lege z. B. Kohle in den Turtle-Inventarslot und nutze im Programm: $(item)turtle.refuel()/$"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Erste Befehle",
+      "text": "$(item)turtle.forward()/$$(br)$(item)turtle.turnLeft()/$$(br)$(item)turtle.turnRight()/$$(br)$(item)turtle.dig()/$$(br)$(item)turtle.back()/$"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mini-Testprogramm",
+      "text": "Datei `turtle_test` anlegen und nacheinander laufen lassen:$(br)refuel -> dig -> forward -> dig -> forward -> back -> back"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ziel fuer M1-D",
+      "text": "Lass die Turtle fuer dich abbauen und gib danach 32 Bruchstein und 16 Kohle in der Quest ab."
+    }
+  ]
+}

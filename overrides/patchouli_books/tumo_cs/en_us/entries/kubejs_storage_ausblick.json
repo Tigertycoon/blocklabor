@@ -1,0 +1,23 @@
+{
+  "name": "Storage Ausblick (Optional)",
+  "category": "patchouli:kubejs",
+  "icon": "minecraft:chest",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Warum das wichtig ist",
+      "text": "Mit Storage + KubeJS werden echte Daten-Aufgaben moeglich:$(br)$(li)Wie viel Material ist da?$(li)Untergrenze erkennen$(li)Warnung und Belohnung ausloesen$(li)Automatische Nachfuell-Hinweise"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mod-Auswahl",
+      "text": "Empfehlung fuer Einsteigerkurs: $(l)Tom's Storage$(/l).$(br2)Refined Storage und AE2 bleiben sehr gute spaetere Bonus- oder Aufbau-Module."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Vorbereitung",
+      "text": "Schon jetzt wichtig:$(br)$(li)klare Namen in Skripten$(li)kleine testbare Funktionen$(li)Inputs/Outputs sauber trennen$(br2)Dann koennen wir Storage-Aufgaben spaeter ohne Chaos nachruesten."
+    }
+  ]
+}

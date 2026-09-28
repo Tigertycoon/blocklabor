@@ -1,0 +1,53 @@
+{
+  "name": "Erstes Programm + Druck",
+  "category": "patchouli:cc_tweaked",
+  "icon": "computercraft:disk_drive",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Warum Hello World?",
+      "text": "Hello World ist der klassische erste Test in der Programmierung. Du pruefst damit:$(br)$(li)Editor aufrufen$(li)Code schreiben$(li)Programm starten$(li)Ergebnis lesen"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Schritt 1: Computer starten",
+      "text": "Stelle den Computer auf und rechtsklicke ihn. Du siehst eine Konsole. Das ist dein Coding-Arbeitsplatz."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Schritt 2: Datei anlegen",
+      "text": "Tippe:$(br)$(item)edit hello/$$(br2)Dann Enter. Jetzt bist du im Editor."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Schritt 3: Code schreiben",
+      "text": "Schreibe exakt:$(br)$(item)print(\"Hello World\")/$$(br2)Danach ESC druecken und Speichern bestaetigen."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Schritt 4: Programm starten",
+      "text": "Zurueck in der Konsole:$(br)$(item)hello/$$(br2)Wenn alles korrekt ist, erscheint Hello World auf dem Bildschirm."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Schritt 5: Printer aufstellen",
+      "text": "Stelle den Printer auf und oeffne ihn. Lege $(item)Papier/$ und $(item)Black Dye/$ ein."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Schritt 6: Seite drucken",
+      "text": "Nutze ein kurzes Druck-Skript oder den Printer-Workflow und drucke eine Seite mit \"Hello World\". Gib diese Seite in M1-C ab."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Wichtig zur Chat-Frage",
+      "text": "Normale Computer schreiben nicht direkt in den Minecraft-Chat. Das geht nur mit Command Computern (Admin-Rechte). Deshalb pruefen wir in M1 ueber gedruckte Seiten."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bonus fuer Schnellere",
+      "text": "Aendere den Text, z. B. in \"Hello Team\". Drucke eine zweite Seite mit eigenem Titel."
+    }
+  ]
+}

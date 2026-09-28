@@ -1,0 +1,185 @@
+{
+	chapter.1000000000000001.chapter_subtitle: ["Computing-Grundlagen in Minecraft"]
+	chapter.1000000000000001.title: "Modul 1: CC:Tweaked"
+	chapter.1000000000000002.chapter_subtitle: ["Automatisierung, Ablauflogik und Zustandsdenken"]
+	chapter.1000000000000002.title: "Modul 2: Super Factory Manager"
+	chapter.1000000000000003.chapter_subtitle: ["Visuelles Programmieren und magische Informatik"]
+	chapter.1000000000000003.title: "Modul 3: Psi"
+	chapter.1000000000000004.chapter_subtitle: ["Scripting, Mod-Integration und eigene Regeln"]
+	chapter.1000000000000004.title: "Modul 4: KubeJS"
+	quest.1100000000000001.quest_desc: [
+		"Willkommen im Workshop."
+		"Zeig zuerst deine Minecraft-Basics: Sammle Holz und nutze die Werkbank."
+		"Crafte Holzspitzhacke, Holzaxt, Holzschaufel und Holzschwert."
+		"Wichtig: Die Aufgabe zaehlt nur echtes Crafting."
+	]
+	quest.1100000000000001.quest_subtitle: "Ankommen und loslegen"
+	quest.1100000000000001.title: "M1-A: Dein erster Survival-Check"
+	quest.1100000000000002.quest_desc: [
+		"Jetzt beginnt die Mission unter Tage."
+		"Finde und sammle insgesamt 16 Kohle."
+		"Danach bekommst du automatisch Computer, Disk Drive und Drucker-Set."
+		"Optional: Wenn ProgressiveStages aktiv ist, werden danach bessere Werkzeug-Rezepte freigeschaltet."
+	]
+	quest.1100000000000002.quest_subtitle: "Rohstoffe finden"
+	quest.1100000000000002.title: "M1-B: Kohle-Expedition"
+	quest.1100000000000003.quest_desc: [
+		"Jetzt startest du dein erstes Programm."
+		"Schreibe ein Hello-World-Programm und drucke das Ergebnis mit dem Printer."
+		"Gib 1 bedruckte Seite in dieser Quest ab."
+		"So pruefen wir den Schritt ueber ein echtes Item statt Chat."
+	]
+	quest.1100000000000003.quest_subtitle: "Programmieren + Drucken"
+	quest.1100000000000003.title: "M1-C: Hello World auf Papier"
+	quest.1100000000000004.quest_desc: [
+		"Willkommen bei den Turtle-Grundlagen."
+		"Nutze deine Turtle, gib ihr Fuel und lass sie fuer dich abbauen."
+		"Gib 32 Bruchstein und 16 Kohle als Nachweis ab."
+		"Tipp: Verwende kleine Testprogramme statt alles von Hand."
+	]
+	quest.1100000000000004.quest_subtitle: "Bewegen, Graben, Fuel"
+	quest.1100000000000004.title: "M1-D: Turtle Basics"
+	quest.1100000000000005.quest_desc: [
+		"Jetzt kommt Schleifen-Denken mit Turtle-Quarry."
+		"Schreibe ein kleines Loop-Programm, das wiederholt abbaut."
+		"Gib 128 Bruchstein und 1 bedruckte Seite mit Notizen ab."
+		"Die Notiz kann z. B. Programmname oder kurze Beobachtung enthalten."
+	]
+	quest.1100000000000005.quest_subtitle: "Loops und Mini-Quarry"
+	quest.1100000000000005.title: "M1-E: Turtle Loop Challenge"
+	quest.1200000000000001.quest_desc: [
+		"Modul 2 startet nach M1-E."
+		"Baue jetzt dein SFM-Setup: Manager, Disk und Kabel."
+		"Das ist die Basis fuer echte Automatisierungsablaeufe."
+	]
+	quest.1200000000000001.quest_subtitle: "SFM Setup"
+	quest.1200000000000001.title: "M2-A: Netzwerk aufbauen"
+	quest.1200000000000002.quest_desc: [
+		"Baue einen ersten funktionierenden Ablauf."
+		"Lasse Materialien automatisch bewegen/verarbeiten."
+		"Gib 64 Bruchstein, 32 Stein und 16 Holzkohle ab."
+	]
+	quest.1200000000000002.quest_subtitle: "Erste Automation"
+	quest.1200000000000002.title: "M2-B: Materialfluss"
+	quest.1200000000000003.quest_desc: [
+		"Fuehre einen kurzen Technik-Check durch."
+		"Erklaere in 3 Saetzen: Input, Verarbeitung, Output."
+		"Danach Quest bestaetigen und mit Psi weitermachen."
+	]
+	quest.1200000000000003.quest_subtitle: "Debug und Uebergabe"
+	quest.1200000000000003.title: "M2-C: System-Verstaendnis"
+	quest.1200000000000010.quest_desc: [
+		"Optionaler Bonuspfad."
+		"Baue eine Printing Press und Fancy Cables."
+		"Stelle zusaetzlich ein cooles Extra deiner Fabrik vor."
+	]
+	quest.1200000000000010.quest_subtitle: "Optional - Swag"
+	quest.1200000000000010.title: "M2-Bonus: Ausbau"
+	quest.1300000000000001.quest_desc: [
+		"Modul 3 startet nach M2-C."
+		"Baue dein Psi-Grundsetup: CAD, Spell Bullet, Programmer."
+		"Danach beginnt der offizielle Tutorial-Pfad."
+	]
+	quest.1300000000000001.quest_subtitle: "Psi Setup"
+	quest.1300000000000001.title: "M3-A: Ausruestung bauen"
+	quest.1300000000000002.quest_desc: [
+		"Arbeite im Psi-Tutorial die Schritte 1 und 2 durch."
+		"Das System erkennt den Fortschritt automatisch ueber Advancements."
+		"Nutze bei Bedarf das Handbuch und die Hilfeseiten."
+	]
+	quest.1300000000000002.quest_subtitle: "Tutorial Teil 1"
+	quest.1300000000000002.title: "M3-B: Tutorial 1-2"
+	quest.1300000000000003.quest_desc: [
+		"Setze das Tutorial mit Schritt 3 und 4 fort."
+		"Hier lernst du komplexere Spell-Logik und bessere Struktur."
+		"Fortschritt wird wieder automatisch erkannt."
+	]
+	quest.1300000000000003.quest_subtitle: "Tutorial Teil 2"
+	quest.1300000000000003.title: "M3-C: Tutorial 3-4"
+	quest.1300000000000004.quest_desc: [
+		"Jetzt kommt Loopcasting und wiederholte Spell-Ausfuehrung."
+		"Schalte Loopcasting frei und crafte eine Loop-Bullet."
+		"Zeige danach kurz deinen Testlauf."
+	]
+	quest.1300000000000004.quest_subtitle: "Loops in Psi"
+	quest.1300000000000004.title: "M3-D: Loopcasting Praxis"
+	quest.1300000000000010.quest_desc: [
+		"Optionaler Bonuspfad fuer Fortgeschrittene."
+		"Baue bessere CAD-Komponenten und vertiefe Vektordenken."
+		"Nicht noetig fuer den Hauptfortschritt."
+	]
+	quest.1300000000000010.quest_subtitle: "Optional - Swag"
+	quest.1300000000000010.title: "M3-Bonus: CAD Upgrade"
+	quest.1400000000000001.quest_desc: [
+		"Modul 4 startet nach M3-D."
+		"Richte KubeJS-Arbeitsweise sauber ein (Dateien, Reload, Logs)."
+		"Ziel ist ein stabiler Dev-Workflow."
+	]
+	quest.1400000000000001.quest_subtitle: "Setup und Workflow"
+	quest.1400000000000001.title: "M4-A: KubeJS Startklar"
+	quest.1400000000000002.quest_desc: [
+		"Setze eine erste kleine Aenderung per Script um."
+		"Teste den Effekt im Spiel und dokumentiere ihn kurz."
+		"Gib 1 Papier als Mini-Doku ab."
+	]
+	quest.1400000000000002.quest_subtitle: "Erste Aenderung"
+	quest.1400000000000002.title: "M4-B: Recipe oder Regel"
+	quest.1400000000000003.quest_desc: [
+		"Baue danach einen einfachen Event-Hook."
+		"Teste ihn reproduzierbar und notiere den Effekt."
+		"Das ist dein technischer Modulabschluss."
+	]
+	quest.1400000000000003.quest_subtitle: "Event-Scripting"
+	quest.1400000000000003.title: "M4-C: Event in Aktion"
+	quest.1400000000000010.quest_desc: [
+		"Optionaler Bonuspfad fuer kreative Erweiterungen."
+		"Beispiel: QoL-Helfer, kleine UI-Idee oder Utility-Feature."
+		"Nicht noetig fuer den Pflichtpfad."
+	]
+	quest.1400000000000010.quest_subtitle: "Optional - Swag"
+	quest.1400000000000010.title: "M4-Bonus: Nice-to-have Script"
+	task.2100000000000001.title: "Holzspitzhacke gebaut"
+	task.2100000000000002.title: "Holzaxt gebaut"
+	task.2100000000000003.title: "Holzschaufel gebaut"
+	task.2100000000000004.title: "Holzschwert gebaut"
+	task.2100000000000005.title: "16 Kohle im Inventar"
+	task.2100000000000006.title: "Code-Review bestaetigt"
+	task.2100000000000007.title: "Abgabe gespraech abgeschlossen"
+	task.2100000000000008.title: "1 bedruckte Seite abgegeben"
+	task.2100000000000009.title: "32 Bruchstein abgegeben"
+	task.2100000000000010.title: "16 Kohle fuer Turtle-Fuel abgegeben"
+	task.2100000000000011.title: "128 Bruchstein aus Loop-Run abgegeben"
+	task.2100000000000012.title: "1 Projekt-Notiz (bedruckte Seite) abgegeben"
+	task.2200000000000001.title: "SFM Manager gecraftet"
+	task.2200000000000002.title: "SFM Disk gecraftet"
+	task.2200000000000003.title: "8 SFM Kabel gecraftet"
+	task.2200000000000004.title: "64 Bruchstein abgegeben"
+	task.2200000000000005.title: "32 Stein abgegeben"
+	task.2200000000000006.title: "16 Holzkohle abgegeben"
+	task.2200000000000007.title: "System-Check abgeschlossen"
+	task.2200000000000008.title: "Printing Press gecraftet"
+	task.2200000000000009.title: "8 Fancy Cables gecraftet"
+	task.2200000000000010.title: "Bonus-Demo vorgestellt"
+	task.2300000000000001.title: "CAD gebaut"
+	task.2300000000000002.title: "Spell Bullet gebaut"
+	task.2300000000000003.title: "Programmer gebaut"
+	task.2300000000000004.title: "Psi Tutorial 1 abgeschlossen"
+	task.2300000000000005.title: "Psi Tutorial 2 abgeschlossen"
+	task.2300000000000006.title: "Psi Tutorial 3 abgeschlossen"
+	task.2300000000000007.title: "Psi Tutorial 4 abgeschlossen"
+	task.2300000000000008.title: "Loopcasting freigeschaltet"
+	task.2300000000000009.title: "Loop Bullet gebaut"
+	task.2300000000000010.title: "Loopcasting-Test gezeigt"
+	task.2300000000000011.title: "CAD Battery Extended gebaut"
+	task.2300000000000012.title: "CAD Core Overclocked gebaut"
+	task.2300000000000013.title: "Vectors Intro abgeschlossen"
+	task.2400000000000001.title: "KubeJS Ordnerstruktur geprueft"
+	task.2400000000000002.title: "Reload und Logs geprueft"
+	task.2400000000000003.title: "Erste Script-Aenderung erstellt"
+	task.2400000000000004.title: "Aenderung im Spiel getestet"
+	task.2400000000000005.title: "1 Papier als Doku abgegeben"
+	task.2400000000000006.title: "Event-Script erstellt"
+	task.2400000000000007.title: "Event reproduzierbar getestet"
+	task.2400000000000010.title: "Bonus-Idee geplant"
+	task.2400000000000011.title: "Bonus-Feature gezeigt"
+}

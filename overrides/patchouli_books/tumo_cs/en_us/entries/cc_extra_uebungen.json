@@ -1,0 +1,33 @@
+{
+  "name": "Extra-Uebungen",
+  "category": "patchouli:cc_tweaked",
+  "icon": "minecraft:target",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Wenn du schneller bist",
+      "text": "Hier sind freiwillige Mini-Challenges nach Hello World. Sie sind optional, aber sehr gut zum Ueben."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Challenge 1",
+      "text": "Aendere den Text auf zwei Zeilen:$(br)print(\"Hello\")$(br)print(\"World\")"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Challenge 2",
+      "text": "Erstelle eine zweite Datei mit anderem Namen, z. B. `team`, und gib dort einen eigenen Begruessungstext aus."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Challenge 3",
+      "text": "Schreibe ein kurzes Begruessungsprogramm fuer einen Freund. Beispiel: \"Willkommen, Alex\"."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Challenge 4",
+      "text": "Teste absichtlich einen Tippfehler und finde den Fehler selbst. So lernst du Debugging wie ein Profi."
+    }
+  ]
+}

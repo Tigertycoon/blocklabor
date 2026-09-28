@@ -1,0 +1,39 @@
+{
+  "name": "Start hier: Willkommen",
+  "category": "patchouli:cc_tweaked",
+  "icon": "computercraft:computer_normal",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Willkommen im Computer-Lab",
+      "text": "$(bold)Schoen, dass du dabei bist!/$$(br2)In diesem Workshop baust du nicht nur in Minecraft, du lernst auch echte Programmierung. Wir arbeiten in kleinen Schritten, damit alle mitkommen."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Was ist ComputerCraft?",
+      "item": "computercraft:computer_normal",
+      "text": "ComputerCraft fuegt Computer zur Welt hinzu. Mit Code kannst du steuern, testen und automatisieren. Programmiert wird in $(thing)Lua/$, einer sehr guten Sprache fuer den Einstieg."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Was du spaeter bauen kannst",
+      "text": "$(li)Licht- und Alarmanlagen$(li)Infos auf Monitoren$(li)Inventar-Checks$(li)Automatisierte Farms$(li)Turtles als kleine Roboter$(br2)Heute starten wir mit den Grundlagen."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "So nutzt du dieses Buch",
+      "text": "$(li)M1 Fahrplan: Was als Naechstes kommt$(li)Erstes Programm + Druck$(li)Turtle Grundlagen$(li)Loops + Mini-Quarry$(li)Tipps und Tricks$(li)Hilfe bei Problemen$(li)Glossar"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Workshop-Regeln",
+      "text": "$(li)Erst verstehen, dann schnell sein$(li)Fehler sind normal$(li)Fragen ist stark$(li)Wir helfen uns im Team$(br2)Wenn du festhaengst: ruhig bleiben, Schritt fuer Schritt pruefen, dann Hilfe holen."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Dein Start in M1",
+      "text": "Du zeigst zuerst Minecraft-Basics, bekommst dann deinen Computer und schreibst dein erstes Programm: $(item)Hello World/$."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Psi Tutorial Hilfe",
+  "category": "patchouli:psi",
+  "icon": "psi:programmer",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Vor jedem Tutorial-Step",
+      "text": "$(li)Richtige Ausruestung im Inventar?$(li)Spell sauber gespeichert?$(li)Genug Psi/Fokus verfuegbar?$(li)Richtige Aufgabe wirklich aktiv?"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Wenn Advancement nicht zaehlt",
+      "text": "Fuehre den Step nochmal bewusst aus. Manche Schritte zaehlen erst, wenn die geforderte Aktion exakt wie im Psi-Tutorial gemacht wurde."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Typische Stolpersteine",
+      "text": "$(li)Falscher Spell in der Bullet$(li)Falscher Modus/Slot$(li)Zu viele Aenderungen auf einmal$(li)Nicht getestet nach jeder Aenderung"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Debug-Strategie",
+      "text": "Nimm den letzten funktionierenden Zustand. Aendere nur eine Sache. Teste. Wiederhole. Genau so arbeiten auch Profi-Entwickler."
+    }
+  ]
+}

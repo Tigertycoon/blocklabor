@@ -1,0 +1,43 @@
+{
+  "name": "M1 Fahrplan",
+  "category": "patchouli:cc_tweaked",
+  "icon": "minecraft:wooden_pickaxe",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Uebersicht M1",
+      "text": "$(bold)M1 besteht jetzt aus 5 Etappen:/$$(br)1) Holzwerkzeuge$(br)2) Kohle-Expedition$(br)3) Hello World + Druck$(br)4) Turtle Basics$(br)5) Loops + Mini-Quarry"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Etappe 1: Survival-Basics",
+      "text": "$(li)Holzspitzhacke$(li)Holzaxt$(li)Holzschaufel$(li)Holzschwert$(br2)Wichtig: Die Quest zaehlt nur echtes Crafting."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Etappe 2: Kohle-Mission",
+      "text": "Sammle $(item)16 Kohle/$ in Hoehle oder Minenschacht. Danach bekommst du automatisch:$(br)$(li)1 Computer$(li)1 Disk Drive$(li)1 Printer + Papier + Ink"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Etappe 3: Hello World + Druck",
+      "text": "Schreibe und teste Hello World am Computer. Drucke danach eine Seite und gib sie in M1-C ab."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Etappe 4: Turtle Basics",
+      "text": "Lerne Turtle-Fuel, Bewegung und Abbau. Ergebnis in M1-D: 32 Bruchstein + 16 Kohle abgeben."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Etappe 5: Loops + Quarry",
+      "text": "Schreibe ein kleines Schleifenprogramm fuer wiederholtes Abbauen. Ergebnis in M1-E: 128 Bruchstein + 1 gedruckte Notizseite."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Wenn du festhaengst",
+      "text": "$(li)M1 Etappe pruefen$(li)Passenden Buch-Eintrag oeffnen$(li)Tipps und Tricks nutzen$(li)Hilfe-Seite nutzen$(br2)Du bist nicht allein."
+    }
+  ]
+}

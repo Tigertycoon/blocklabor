@@ -1,0 +1,149 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "m3_psi"
+	group: ""
+	id: "1000000000000003"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1200000000000003"]
+			id: "1300000000000001"
+			icon: "psi:cad"
+			tasks: [
+				{
+					id: "2300000000000001"
+					item: "psi:cad"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "2300000000000002"
+					item: "psi:spell_bullet"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "2300000000000003"
+					item: "psi:programmer"
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1300000000000001"]
+			id: "1300000000000002"
+			icon: "psi:spell_bullet"
+			tasks: [
+				{
+					advancement: "psi:tutorial1"
+					id: "2300000000000004"
+					type: "advancement"
+				}
+				{
+					advancement: "psi:tutorial2"
+					id: "2300000000000005"
+					type: "advancement"
+				}
+			]
+			rewards: [
+				{
+					auto: "enabled"
+					count: 1
+					id: "3300000000000001"
+					item: "psi:spell_drive"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 1
+					id: "3300000000000002"
+					item: "psi:vector_ruler"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1300000000000002"]
+			id: "1300000000000003"
+			icon: "psi:programmer"
+			tasks: [
+				{
+					advancement: "psi:tutorial3"
+					id: "2300000000000006"
+					type: "advancement"
+				}
+				{
+					advancement: "psi:tutorial4"
+					id: "2300000000000007"
+					type: "advancement"
+				}
+			]
+			rewards: [{
+				auto: "enabled"
+				count: 1
+				id: "3300000000000003"
+				item: "psi:cad_colorizer_psi"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1300000000000003"]
+			id: "1300000000000004"
+			icon: "psi:spell_bullet_loop"
+			tasks: [
+				{
+					advancement: "psi:loopcasting"
+					id: "2300000000000008"
+					type: "advancement"
+				}
+				{
+					id: "2300000000000009"
+					item: "psi:spell_bullet_loop"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "2300000000000010"
+					type: "checkmark"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1300000000000003"]
+			id: "1300000000000010"
+			icon: "psi:cad_battery_extended"
+			tasks: [
+				{
+					id: "2300000000000011"
+					item: "psi:cad_battery_extended"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "2300000000000012"
+					item: "psi:cad_core_overclocked"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					advancement: "psi:vectors_intro"
+					id: "2300000000000013"
+					type: "advancement"
+				}
+			]
+			x: 12.0d
+			y: -4.0d
+		}
+	]
+}

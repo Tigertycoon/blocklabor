@@ -1,0 +1,28 @@
+{
+  "name": "M3 Fahrplan",
+  "category": "patchouli:psi",
+  "icon": "psi:spell_bullet",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Pflichtpfad",
+      "text": "$(li)M3-A: CAD + Bullet + Programmer$(li)M3-B: Tutorial 1 und 2$(li)M3-C: Tutorial 3 und 4$(li)M3-D: Loopcasting Praxis"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Automatische Checks",
+      "text": "Mehrere Psi-Quests sind Advancement-basiert. Das heisst: Der Fortschritt wird direkt aus deinem echten Psi-Lernweg erkannt."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "So lernst du schneller",
+      "text": "$(li)Nur einen neuen Baustein auf einmal$(li)Nach jeder Aenderung testen$(li)Fehler notieren statt raten$(li)In kleinen Schritten arbeiten"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bonuspfad",
+      "text": "Wenn du schneller bist, baue bessere CAD-Teile (Battery/Core) und vertiefe Vektor-Themen."
+    }
+  ]
+}

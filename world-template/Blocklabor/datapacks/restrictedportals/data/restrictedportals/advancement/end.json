@@ -1,0 +1,1 @@
+{"display":{"icon":{"id":"minecraft:ender_eye"},"title":"End Unlocked!","description":"Obtain a Eye of Ender"},"parent":"restrictedportals:root","criteria":{"end":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:ender_eye"]}]}}},"requirements":[["end"]]}

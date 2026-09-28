@@ -1,0 +1,28 @@
+{
+  "name": "Start hier: Psi",
+  "category": "patchouli:psi",
+  "icon": "psi:cad",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Willkommen in Modul 3",
+      "text": "Psi ist visuelles Programmieren mit Magie-Logik. Du baust Spells aus Bausteinen und lernst strukturiertes Denken wie in echter Software."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Das Besondere hier",
+      "text": "Dieses Modul nutzt den echten Psi-Tutorial-Pfad. Mehrere Quests pruefen automatisch ueber Psi-Advancements, was du wirklich gelernt hast."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Pfad in kurz",
+      "text": "Setup -> Tutorial 1-2 -> Tutorial 3-4 -> Loopcasting.$(br)Danach bist du stark vorbereitet fuer komplexere Spells."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Wichtig",
+      "text": "Psi kann am Anfang komplex wirken. Geh langsam vor, teste oft, und nutze die Hilfeseiten und das Psi-Buch parallel."
+    }
+  ]
+}

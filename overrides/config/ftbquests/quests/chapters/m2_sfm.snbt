@@ -1,0 +1,152 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "m2_sfm"
+	group: ""
+	id: "1000000000000002"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1100000000000005"]
+			id: "1200000000000001"
+			icon: "sfm:manager"
+			tasks: [
+				{
+					id: "2200000000000001"
+					item: "sfm:manager"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "2200000000000002"
+					item: "sfm:disk"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2200000000000003"
+					item: "sfm:cable"
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			rewards: [
+				{
+					auto: "enabled"
+					count: 1
+					id: "3200000000000001"
+					item: "sfm:network_tool"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 1
+					id: "3200000000000002"
+					item: "sfm:labelgun"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1200000000000001"]
+			id: "1200000000000002"
+			icon: "sfm:cable"
+			tasks: [
+				{
+					consume_items: "enabled"
+					count: 64L
+					id: "2200000000000004"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					consume_items: "enabled"
+					count: 32L
+					id: "2200000000000005"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					consume_items: "enabled"
+					count: 16L
+					id: "2200000000000006"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1200000000000002"]
+			id: "1200000000000003"
+			icon: "sfm:network_tool"
+			tasks: [{
+				id: "2200000000000007"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					auto: "enabled"
+					count: 1
+					id: "3200000000000003"
+					item: "psi:cad"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 1
+					id: "3200000000000004"
+					item: "psi:spell_bullet"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 1
+					id: "3200000000000005"
+					item: "psi:programmer"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1200000000000002"]
+			id: "1200000000000010"
+			icon: "sfm:printing_press"
+			tasks: [
+				{
+					id: "2200000000000008"
+					item: "sfm:printing_press"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2200000000000009"
+					item: "sfm:fancy_cable"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "2200000000000010"
+					type: "checkmark"
+				}
+			]
+			rewards: [{
+				auto: "enabled"
+				count: 1
+				id: "3200000000000006"
+				item: "sfm:water_tank"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+	]
+}

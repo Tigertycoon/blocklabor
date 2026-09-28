@@ -1,0 +1,33 @@
+{
+  "name": "Mini-Glossar",
+  "category": "patchouli:cc_tweaked",
+  "icon": "minecraft:paper",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Wichtige Woerter",
+      "text": "$(thing)Programm/$: Eine Liste von Befehlen, die der Computer nacheinander ausfuehrt.$(br2)$(thing)Code/$: Der Text, aus dem ein Programm besteht."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Datei und Konsole",
+      "text": "$(thing)Datei/$: Ort, in dem dein Programm gespeichert wird.$(br)$(thing)Konsole/$: Schwarzer Bildschirm, in dem du Befehle eingibst."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Befehl und Ausgabe",
+      "text": "$(thing)Befehl/$: Das, was du eingibst (z. B. edit hello).$(br)$(thing)Ausgabe/$: Das, was der Computer danach zeigt."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bug und Debugging",
+      "text": "$(thing)Bug/$: Ein Fehler im Programm.$(br)$(thing)Debugging/$: Fehler suchen und beheben, bis es funktioniert."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Automatisierung",
+      "text": "$(thing)Automatisierung/$: Eine Aufgabe laeuft nach Regeln automatisch, statt alles von Hand zu machen."
+    }
+  ]
+}

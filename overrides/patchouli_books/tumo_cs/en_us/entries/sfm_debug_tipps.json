@@ -1,0 +1,28 @@
+{
+  "name": "SFM Debug Tipps",
+  "category": "patchouli:sfm",
+  "icon": "sfm:network_tool",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Wenn nichts laeuft",
+      "text": "Pruefe in dieser Reihenfolge:$(br)1) Strom/Blockaufbau$(br)2) Verbindungen/Kabel$(br)3) Input verfuegbar?$(br)4) Output hat Platz?"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Fehler einkreisen",
+      "text": "Teste nie alles gleichzeitig. Deaktiviere Teile und teste den kleinsten Ablauf, der noch den Fehler zeigt."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Stabile Systeme",
+      "text": "$(li)Kurze Wege$(li)Klare Beschriftung$(li)Ein Zweck pro Segment$(li)Regelmaessig kontrollieren"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Team-Workflow",
+      "text": "Eine Person baut, eine prueft. Danach Rollen wechseln. So werden Fehler schneller gefunden und beide lernen gleich viel."
+    }
+  ]
+}

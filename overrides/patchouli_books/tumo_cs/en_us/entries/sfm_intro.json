@@ -1,0 +1,28 @@
+{
+  "name": "Start hier: SFM",
+  "category": "patchouli:sfm",
+  "icon": "sfm:manager",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Willkommen in Modul 2",
+      "text": "$(bold)SFM steht fuer Systemdenken/$: Input, Verarbeitung, Output. Du baust ein kleines Fabriknetz und lernst, wie man Ablaeufe stabil betreibt."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Was du hier lernst",
+      "text": "$(li)Netzwerkteile aufbauen$(li)Materialfluss planen$(li)Ablauf testen und debuggen$(li)System sauber erklaeren"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "M2 in kurz",
+      "text": "Pflichtpfad: Setup -> Materialfluss -> System-Check.$(br)Bonuspfad: Ausbau mit Fancy-Teilen und Praesentation."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Haltung fuer M2",
+      "text": "Nicht raten, messen: pruefe jeden Schritt einzeln. Wenn etwas nicht laeuft, teste erst Input, dann Verarbeitung, dann Output."
+    }
+  ]
+}

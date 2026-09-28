@@ -1,0 +1,33 @@
+{
+  "name": "Loops und Mini-Quarry",
+  "category": "patchouli:cc_tweaked",
+  "icon": "minecraft:iron_pickaxe",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Warum Schleifen?",
+      "text": "Schleifen wiederholen Aufgaben automatisch. Statt 20x denselben Befehl zu tippen, laesst du den Code arbeiten."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Beispiel Schleife",
+      "text": "$(item)for i = 1, 16 do/$$(br)$(item)  turtle.dig()/$$(br)$(item)  turtle.forward()/$$(br)$(item)end/$"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mini-Quarry Idee",
+      "text": "Baue zuerst geradeaus, dann Drehung, dann neue Bahn. So entsteht ein kleines Raster statt nur ein Tunnel."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Sicher bleiben",
+      "text": "$(li)Immer genug Fuel einplanen$(li)Rueckweg testen$(li)Bei Fehlern: kurz stoppen, Position pruefen, dann weiter"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Ziel fuer M1-E",
+      "text": "Nutze ein Loop-Programm fuer wiederholtes Abbauen. Gib danach 128 Bruchstein und 1 bedruckte Notizseite ab."
+    }
+  ]
+}

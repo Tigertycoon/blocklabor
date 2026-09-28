@@ -1,0 +1,23 @@
+{
+  "name": "Start hier: KubeJS",
+  "category": "patchouli:kubejs",
+  "icon": "minecraft:writable_book",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Willkommen in Modul 4",
+      "text": "Hier passt du das Modpack selbst per Script an. Du lernst echten Workflow: aendern, reloaden, testen, debuggen."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Pflichtpfad",
+      "text": "$(li)M4-A: Setup + Logs$(li)M4-B: erste Regel/Recipe$(li)M4-C: Event-Script$(br2)Bonuspfad: kreative QoL-Erweiterung"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Wichtige Haltung",
+      "text": "Kleine Aenderungen, schnelle Tests. Nicht 20 Dinge auf einmal umbauen. So bleibt dein System stabil."
+    }
+  ]
+}

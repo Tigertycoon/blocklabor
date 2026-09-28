@@ -1,0 +1,23 @@
+{
+  "name": "Storage Erweiterung (Optional)",
+  "category": "patchouli:sfm",
+  "icon": "minecraft:barrel",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Empfehlung fuer 1.21.1",
+      "text": "Fuer euren Kinder-Workshop ist $(l)Tom's Storage$(/l) aktuell die beste Startwahl:$(br)$(li)einfacher Einstieg$(li)kein Stromsystem noetig$(li)schneller Erfolg mit Such-Terminal$(br2)Alternativen:$(br)$(li)Refined Storage (mehr Technik, mit Strom)$(li)AE2 (sehr stark, aber deutlich komplexer)"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "SFM + Storage Aufgabenideen",
+      "text": "Mit Storage koennen wir sehr gute SFM-Aufgaben bauen:$(br)$(li)Zaehle Kohle im Lager$(li)Wenn weniger als 32 -> Warnsignal$(li)Wenn mehr als 128 -> Extra-Kiste fuellen$(li)Wenn Null -> Notfall-Lampe an"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Plan fuer spaeter",
+      "text": "Pfad bleibt erstmal storage-unabhaengig. Wenn Tom's installiert ist, schalten wir ein optionales Storage-Questmodul frei mit Monitoring und Alarmen."
+    }
+  ]
+}

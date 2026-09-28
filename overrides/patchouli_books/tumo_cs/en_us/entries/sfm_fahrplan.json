@@ -1,0 +1,33 @@
+{
+  "name": "M2 Fahrplan",
+  "category": "patchouli:sfm",
+  "icon": "sfm:cable",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Pflichtpfad",
+      "text": "$(li)M2-A: Manager + Disk + Kabel craften$(li)M2-B: Materialfluss aufbauen$(li)M2-C: System-Check und Erklaerung"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "M2-A Setup Tipp",
+      "text": "Baue erst ein kleines Testnetz mit kurzen Wegen. Je kleiner der erste Aufbau, desto schneller findest du Fehler."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "M2-B Materialfluss",
+      "text": "Ziel fuer die Quest: Material automatisch bewegen und reproduzierbar erzeugen. Danach 64 Bruchstein, 32 Stein, 16 Holzkohle abgeben."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "M2-C System-Check",
+      "text": "Erklaere am Ende dein System in 3 Punkten:$(br)1) Was kommt rein?$(br)2) Was passiert im Ablauf?$(br)3) Was kommt raus?"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bonuspfad",
+      "text": "Wenn ihr schneller seid: Printing Press + Fancy Cables + kurze Demo. Das ist optional und gibt extra Workshop-Swag."
+    }
+  ]
+}

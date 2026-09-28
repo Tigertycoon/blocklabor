@@ -1,0 +1,28 @@
+{
+  "name": "Loopcasting Fokus",
+  "category": "patchouli:psi",
+  "icon": "psi:spell_bullet_loop",
+  "sortnum": 3,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Warum Loopcasting?",
+      "text": "Loopcasting bedeutet: Ein Spell kann wiederholt laufen. Das ist perfekt fuer Aufgaben mit Wiederholung, Timing und Zustand."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Worauf achten",
+      "text": "$(li)Loop nicht zu teuer machen$(li)Abbruchbedingungen klar halten$(li)Ergebnis immer beobachten$(li)Bei Chaos: Schritt fuer Schritt zurueck"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Quest-Ziel M3-D",
+      "text": "Schalte Loopcasting frei, crafte eine Loop-Bullet und zeige einen funktionierenden Testlauf."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Profi-Tipp",
+      "text": "Dokumentiere kurz, was dein Loop tun soll. Ein klarer Satz vor dem Bauen reduziert Fehler stark."
+    }
+  ]
+}

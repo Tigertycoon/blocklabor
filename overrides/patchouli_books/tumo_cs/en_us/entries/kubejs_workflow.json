@@ -1,0 +1,28 @@
+{
+  "name": "KubeJS Workflow",
+  "category": "patchouli:kubejs",
+  "icon": "minecraft:comparator",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Standard-Ablauf",
+      "text": "$(li)1 Datei aendern$(li)Reload$(li)Logs lesen$(li)Im Spiel testen$(li)Ergebnis notieren"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Logs richtig nutzen",
+      "text": "Wenn etwas nicht laeuft, zuerst Logs. Fehlermeldungen sagen oft genau Datei und Zeile."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Sichere Aenderungen",
+      "text": "Nur eine Sache auf einmal aendern. So weisst du immer, welcher Schritt einen Fehler verursacht hat."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "M4-B und M4-C",
+      "text": "In M4-B baust du eine erste Regel/Recipe. In M4-C baust du einen Event-Hook mit nachvollziehbarem Test."
+    }
+  ]
+}

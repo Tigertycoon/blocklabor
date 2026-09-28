@@ -1,0 +1,193 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "m1_cc_tweaked"
+	group: ""
+	id: "1000000000000001"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1100000000000001"
+			icon: "minecraft:wooden_pickaxe"
+			tasks: [
+				{
+					id: "2100000000000001"
+					item: "minecraft:wooden_pickaxe"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "2100000000000002"
+					item: "minecraft:wooden_axe"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "2100000000000003"
+					item: "minecraft:wooden_shovel"
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "2100000000000004"
+					item: "minecraft:wooden_sword"
+					only_from_crafting: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1100000000000001"]
+			id: "1100000000000002"
+			icon: "minecraft:coal"
+			tasks: [
+				{
+					count: 16L
+					id: "2100000000000005"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			rewards: [
+				{
+					auto: "enabled"
+					count: 1
+					id: "3100000000000001"
+					item: "computercraft:computer_normal"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 1
+					id: "3100000000000002"
+					item: "computercraft:disk_drive"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/kubejs stages add {p} m1_stone_unlock"
+					id: "3100000000000003"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					count: 1
+					id: "3100000000000004"
+					item: "computercraft:printer"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 24
+					id: "3100000000000005"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 12
+					id: "3100000000000006"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1100000000000002"]
+			id: "1100000000000003"
+			icon: "computercraft:printer"
+			tasks: [{
+				consume_items: "enabled"
+				count: 1L
+				id: "2100000000000008"
+				item: "computercraft:printed_page"
+				type: "item"
+			}]
+			rewards: [
+				{
+					auto: "enabled"
+					count: 1
+					id: "3100000000000007"
+					item: "computercraft:turtle_normal"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 32
+					id: "3100000000000008"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					count: 1
+					id: "3100000000000009"
+					item: "computercraft:wireless_modem_normal"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1100000000000003"]
+			id: "1100000000000004"
+			icon: "computercraft:turtle_normal"
+			tasks: [
+				{
+					consume_items: "enabled"
+					count: 32L
+					id: "2100000000000009"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					consume_items: "enabled"
+					count: 16L
+					id: "2100000000000010"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1100000000000004"]
+			id: "1100000000000005"
+			icon: "minecraft:iron_pickaxe"
+			tasks: [
+				{
+					consume_items: "enabled"
+					count: 128L
+					id: "2100000000000011"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					consume_items: "enabled"
+					count: 1L
+					id: "2100000000000012"
+					item: "computercraft:printed_page"
+					type: "item"
+				}
+			]
+			rewards: [{
+				auto: "enabled"
+				count: 1
+				id: "3100000000000010"
+				item: "computercraft:pocket_computer_normal"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+	]
+}

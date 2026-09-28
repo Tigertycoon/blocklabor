@@ -1,0 +1,23 @@
+{
+  "name": "M4 Fahrplan",
+  "category": "patchouli:kubejs",
+  "icon": "minecraft:observer",
+  "sortnum": 1,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "M4 in 3 Schritten",
+      "text": "$(li)Setup und Logs pruefen$(li)Erste Script-Aenderung$(li)Event-Hook bauen und testen"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Was ist Erfolg?",
+      "text": "Nicht 'viel Code', sondern:$(br)$(li)Aenderung ist klar$(li)Effekt ist reproduzierbar$(li)Fehler koennen erklaert werden"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Doku als Skill",
+      "text": "Jede Aenderung kurz notieren: Ziel, Script-Datei, Test-Ergebnis. Das macht Teamarbeit und Fehlersuche viel leichter."
+    }
+  ]
+}

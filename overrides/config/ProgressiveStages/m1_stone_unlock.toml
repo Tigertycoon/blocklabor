@@ -1,0 +1,44 @@
+[stage]
+id = "m1_stone_unlock"
+display_name = "M1 Steinwerkzeuge freigeschaltet"
+description = "Schaltet nach M1-B das Crafting von Stein- und besseren Werkzeugen frei."
+icon = "minecraft:stone_pickaxe"
+unlock_message = "&aM1 Fortschritt: Stein- und bessere Werkzeug-Rezepte freigeschaltet."
+
+[locks]
+recipes = [
+    # Stone tier
+    "minecraft:stone_pickaxe",
+    "minecraft:stone_axe",
+    "minecraft:stone_shovel",
+    "minecraft:stone_sword",
+    "minecraft:stone_hoe",
+
+    # Gold tier
+    "minecraft:golden_pickaxe",
+    "minecraft:golden_axe",
+    "minecraft:golden_shovel",
+    "minecraft:golden_sword",
+    "minecraft:golden_hoe",
+
+    # Iron tier
+    "minecraft:iron_pickaxe",
+    "minecraft:iron_axe",
+    "minecraft:iron_shovel",
+    "minecraft:iron_sword",
+    "minecraft:iron_hoe",
+
+    # Diamond tier
+    "minecraft:diamond_pickaxe",
+    "minecraft:diamond_axe",
+    "minecraft:diamond_shovel",
+    "minecraft:diamond_sword",
+    "minecraft:diamond_hoe",
+
+    # Netherite upgrades
+    "minecraft:netherite_pickaxe_smithing",
+    "minecraft:netherite_axe_smithing",
+    "minecraft:netherite_shovel_smithing",
+    "minecraft:netherite_sword_smithing",
+    "minecraft:netherite_hoe_smithing"
+]

@@ -1,0 +1,1 @@
+{"display":{"icon":{"id":"minecraft:flint_and_steel"},"title":"Nether Unlocked!","description":"Obtain a Flint and Steel"},"parent":"restrictedportals:root","criteria":{"nether":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":["minecraft:flint_and_steel"]}]}}},"requirements":[["nether"]]}

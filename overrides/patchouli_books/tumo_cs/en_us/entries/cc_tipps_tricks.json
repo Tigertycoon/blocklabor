@@ -1,0 +1,38 @@
+{
+  "name": "Tipps und Tricks",
+  "category": "patchouli:cc_tweaked",
+  "icon": "minecraft:book",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "2-Minuten-Check",
+      "text": "$(li)Habe ich gespeichert?$(li)Ist der Dateiname korrekt?$(li)Sind Klammern und Anfuehrungszeichen korrekt?$(li)Teste ich wirklich die richtige Datei?"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Schnelle Befehle",
+      "text": "$(item)edit <name>/$ = Datei bearbeiten$(br)$(item)<name>/$ = Programm starten$(br)$(item)ls/$ = Dateien anzeigen$(br)$(item)delete <name>/$ = Datei loeschen$(br)$(item)clear/$ = Bildschirm leeren"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Wenn du haengst",
+      "text": "Problem in kleine Teile splitten:$(br)1) Startet der Computer?$(br)2) Existiert die Datei?$(br)3) Stimmt der Dateiname?$(br)4) Stimmt der Code?"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Teamwork-Tipp",
+      "text": "Arbeitet als Mini-Team: eine Person tippt, die andere liest mit. Nach 5 Minuten wechseln. Das reduziert Tippfehler deutlich."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Profi-Gewohnheit",
+      "text": "Nach jeder kleinen Aenderung kurz testen. Kleine Tests sparen viel Zeit und vermeiden Frust."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Mutmacher",
+      "text": "Wenn etwas nicht klappt, heisst das nicht, dass du es nicht kannst. Es heisst nur: Wir haben den Fehler noch nicht gefunden."
+    }
+  ]
+}

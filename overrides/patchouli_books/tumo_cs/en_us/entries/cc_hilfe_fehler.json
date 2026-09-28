@@ -1,0 +1,33 @@
+{
+  "name": "Hilfe bei Problemen",
+  "category": "patchouli:cc_tweaked",
+  "icon": "minecraft:redstone_torch",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Problem: Nichts passiert",
+      "text": "Basis-Check:$(br)$(li)Richtigen Block angeklickt?$(li)Computer wirklich gestartet?$(li)Siehst du die Konsole?$(br2)Wenn nein: neu aufstellen und erneut testen."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Problem: Datei startet nicht",
+      "text": "Tippe $(item)ls/$ und pruefe den Dateinamen. Wenn die Datei $(item)hello/$ heisst, startest du mit $(item)hello/$. Schreibweise muss exakt passen."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Problem: Fehler im Code",
+      "text": "Achte auf Klammern und Anfuehrungszeichen. Bei Hello World muss die Zeile exakt so aussehen:$(br)$(item)print(\"Hello World\")/$"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Problem: Quest zaehlt nicht",
+      "text": "M1-C prueft eine bedruckte Seite. Stelle sicher:$(br)$(li)Seite ist wirklich gedruckt$(li)Du gibst sie in der Quest ab$(li)Papier und Black Dye waren im Printer"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Wenn es weiter klemmt",
+      "text": "Melde dich mit dieser Mini-Info:$(br)$(li)Was wolltest du machen?$(li)Was hast du eingegeben?$(li)Was ist stattdessen passiert?$(br2)So koennen wir schnell und gezielt helfen."
+    }
+  ]
+}
